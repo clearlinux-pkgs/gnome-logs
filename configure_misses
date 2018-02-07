@@ -1,0 +1,5 @@
+Configure miss: XML catalog (/etc/xml/catalog)
+Configure miss: DocBook XML DTD V4.3 in XML catalog
+Configure miss: DocBook XSL Stylesheets in XML catalog
+Configure miss: appstream-util
+Configure miss: python module dogtail
