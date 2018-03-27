@@ -1,13 +1,170 @@
-commit 1df63ff21b9ae51171e897ad2006cd03985cf244
-Author: Jonathan Kang <jonathan121537@gmail.com>
-Date:   Fri Feb 2 15:05:32 2018 +0800
+commit 2939d8f578d46d95edc3aacd0538f7f0ab860dd8
+Author: David King <davidk@gnome.org>
+Date:   Mon Mar 12 15:48:52 2018 +0000
 
-    update NEWS for 3.26.3 release
+    Update NEWS for 3.28.0 release
 
 M	NEWS
 M	configure.ac
 
-commit c4d29e4c0294962e7cbc43ba37d0ea7a23dfd01d
+commit cb3af2d1d2ed766384a16f02729dd9adc7ce3a28
+Author: Милош Поповић <gpopac@gmail.com>
+Date:	Sat Mar 10 22:44:03 2018 +0000
+
+    Update Serbian Latin translation
+
+M	po/sr@latin.po
+
+commit 888ff9397db8a4ad89a90f55b6aa1a89bb88949d
+Author: gogo <trebelnik2@gmail.com>
+Date:	Wed Mar 7 14:33:05 2018 +0000
+
+    Update Croatian translation
+
+M	po/hr.po
+
+commit d909cb1c127bbf99e91790c3639d87c54b485e95
+Author: Efstathios Iosifidis <eiosifidis@gnome.org>
+Date:	Tue Mar 6 23:01:26 2018 +0000
+
+    Update Greek translation
+
+M	po/el.po
+
+commit e71a0832b8d1338dc375c1aedd1dc775f13a7a30
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	Tue Mar 6 22:40:13 2018 +0100
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit f213ba52b78741a3658045edda0a302d95d04f2d
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Tue Mar 6 16:33:36 2018 +0800
+
+    update NEWS for 3.27.92 release
+
+M	NEWS
+M	configure.ac
+
+commit b632248491fc3d3e801e8c8feda043e2c48aa41a
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:	Mon Mar 5 01:32:12 2018 +0000
+
+    Update Chinese (Taiwan) translation
+
+M	po/zh_TW.po
+
+commit 0529df8c6b995f495090f325f83a993bea5616a1
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:	Sat Mar 3 15:09:59 2018 +0000
+
+    Update Kazakh translation
+
+M	po/kk.po
+
+commit 0a2e4585328ff3c51febc7b2b1e5437a556d8eac
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:	Sat Mar 3 14:23:02 2018 +0200
+
+    Updated Lithuanian translation
+
+M	po/lt.po
+
+commit 8e7730efe859b09e197cb237ec78801a759881e9
+Author: GNOME Translation Robot <gnome-sysadmin@gnome.org>
+Date:	Fri Mar 2 10:22:50 2018 +0000
+
+    Update Scottish Gaelic translation
+
+    (cherry picked from commit e5e5b059489a45327852aaef1e4c33fe57dbf2e3)
+
+M	po/gd.po
+
+commit 981172d371f3bc8d29f3f43deaa5edbae686cddb
+Author: Guillaume Bernard <associations@guillaume-bernard.fr>
+Date:	Thu Mar 1 18:37:43 2018 +0000
+
+    Update French translation
+
+M	po/fr.po
+
+commit a64313043018a02ce426ff7f7f983130e2218742
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	Mon Feb 26 18:13:11 2018 +0000
+
+    Update Slovak translation
+
+M	po/sk.po
+
+commit e15121c6a5a6697bfc6d480fe3cf481ac8989c39
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:	Mon Feb 26 08:11:29 2018 +0000
+
+    Update Italian translation
+
+M	po/it.po
+
+commit 334da8cdd0fea5d8e6f7b14e7b9429a8133ca4f1
+Author: Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Date:	Sat Feb 24 20:14:01 2018 +0200
+
+    Update Latvian translation
+
+M	po/lv.po
+
+commit 9f81a64496e2f718750789a19593976370341bf1
+Author: GNOME Translation Robot <gnome-sysadmin@gnome.org>
+Date:	Fri Feb 23 20:02:51 2018 +0000
+
+    Update Dutch translation
+
+M	po/nl.po
+
+commit 9429191eb63b75275c59c03aeef48efc5eb17ac3
+Author: Fran Dieguez <frandieguez@gnome.org>
+Date:	Sat Feb 17 12:59:13 2018 +0000
+
+    Update Galician translation
+
+M	po/gl.po
+
+commit 6e43b0d32fc0566e021bac1102f7ca68689aa593
+Author: Emin Tufan Çetin <etcetin@gmail.com>
+Date:	Sat Feb 10 08:44:36 2018 +0000
+
+    Update Turkish translation
+
+M	po/tr.po
+
+commit 352589dad42e087e1f94cb955e0e3bccb8a5490b
+Author: Enrico Nicoletto <liverig@gmail.com>
+Date:	Sat Feb 10 00:01:27 2018 +0000
+
+    Update Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit 87c18e64ec97d3d3df3b7b4bb76624aa0b7ca75e
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Mon Feb 5 21:44:19 2018 +0800
+
+    update NEWS for 3.27.90 release
+
+M	NEWS
+M	configure.ac
+
+commit 188fcc6cda881b4491341988fccafc4d7704eac1
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Feb 5 00:50:53 2018 +0100
+
+    Update Polish translation
+
+M	help/pl/pl.po
+M	po/pl.po
+
+commit 0968474564d8bb114b05b69e914606455539ef1b
 Author: Jakub Steiner <jimmac@gmail.com>
 Date:	Wed Jan 31 10:58:26 2018 +0100
 
@@ -20,40 +177,239 @@ Date:	Wed Jan 31 10:58:26 2018 +0100
 
 M	data/gl-style.css
 
-commit 9a95ba2a939d55a1799a7a759b38c760dc98b85c
+commit dae4a419f1e239df153d5f00556e7067eba7da08
+Author: Balázs Úr <balazs@urbalazs.hu>
+Date:	Sun Jan 21 21:28:33 2018 +0000
+
+    Update Hungarian translation
+
+M	po/hu.po
+
+commit 9536bab0edc45132b30ba5e98b170c69c12e6b71
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	Tue Jan 9 18:13:48 2018 +0000
+
+    Update Finnish translation
+
+M	po/fi.po
+
+commit 53201bc5ee8862eb8351c28fb2fbd2378e081ae1
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Mon Jan 8 17:44:43 2018 +0800
+
+    update NEWS for 3.27.4 release
+
+M	NEWS
+M	configure.ac
+
+commit 27b52b9d267977266187a3947073222b81e8a793
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Mon Jan 8 15:56:10 2018 +0800
+
+    meson: add warning cflags
+
+    As a port of AX_COMPILER_FLAGS which is supposed to replace
+    GNOME_COMPILE_WARNINGS, add needed warning cflags in main meson.build
+    file.
+
+M	meson.build
+
+commit f54265f73ead1e052147cc9ff2915dfc3c9cd24d
+Merge: 211bbb3 782720d
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Wed Jan 3 16:33:29 2018 +0800
+
+    Merge branch 'wip/jonathankang/meson'
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=790276
+
+commit 211bbb39634155c2475587876e088eae9562242e
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	Tue Dec 26 12:00:11 2017 +0000
+
+    Update Swedish translation
+
+M	po/sv.po
+
+commit b494ab709aa71c61b3470296472af87fc902f113
+Author: Марко Костић <marko.m.kostic@gmail.com>
+Date:	Mon Dec 25 22:26:53 2017 +0000
+
+    Update Serbian translation
+
+M	po/sr.po
+
+commit 5a01de564e226d6897896b51ee148f811fe8bdc3
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	Wed Dec 20 18:09:11 2017 +0100
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit 782720d53c73f2be98adaed480ab7c3da861d39d
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Thu Dec 14 15:38:33 2017 +0800
+
+    meson: add missing LINGUAS file to help directory
+
+A	help/LINGUAS
+
+commit 4707e790dd91df48c737465bde4fae2e7091c782
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Fri Nov 17 17:51:09 2017 +0800
+
+    Port to meson build system
+
+    According to this wiki[0], port Logs to meson build system.
+
+    *[0] https://wiki.gnome.org/Initiatives/GnomeGoals/MesonPorting
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=790276
+
+A	data/icons/meson.build
+A	data/meson.build
+A	help/meson.build
+A	meson.build
+A	meson_options.txt
+A	meson_post_install.py
+A	po/meson.build
+A	src/meson.build
+A	tests/meson.build
+
+commit c6050eb1ccbcdff42a0a7ad07b979a8c536ed27a
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Mon Dec 11 22:37:56 2017 +0800
+
+    update NEWS for 3.27.3 release
+
+M	NEWS
+M	configure.ac
+
+commit 2247ed9d44e9021bd5172f7ba82bc5be6ff85844
+Author: Kukuh Syafaat <syafaatkukuh@gmail.com>
+Date:	Sun Dec 3 04:32:56 2017 +0000
+
+    Update Indonesian translation
+
+M	po/id.po
+
+commit c4a0d2af0b8fcaeaccfd47c394ba5c3138be8eca
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Mon Nov 13 20:01:44 2017 +0800
+
+    update NEWS for 3.27.2 release
+
+M	NEWS
+M	configure.ac
+
+commit 6c70467dc6d1d5fcafba9a4fda8c0da2e12283b3
 Author: Kjartan Maraas <kmaraas@gnome.org>
-Date:	Wed Nov 8 19:52:01 2017 +0100
+Date:	Sat Nov 11 19:12:30 2017 +0100
 
     Updated Norwegian bokmål translation.
 
 M	po/nb.po
 
-commit 0306fcee341a86c448174e1e7c3b2da8315e5763
-Author: Jonathan Kang <jonathan121537@gmail.com>
-Date:	Mon Oct 30 16:01:55 2017 +0800
+commit 056bd8258f492bfded5d6fa09ed8ccde81ab2e0f
+Author: gogo <trebelnik2@gmail.com>
+Date:	Thu Nov 9 16:56:01 2017 +0000
 
-    update NEWS for 3.26.2 release
+    Update Croatian translation
+
+M	po/hr.po
+
+commit fba0e8e684aefb0f6535664e64a350fe5dd53e69
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:	Wed Nov 8 19:52:30 2017 +0100
+
+    Updated Norwegian bokmål translation.
+
+M	po/nb.po
+
+commit ac5e0985e23f04b1dfc832c6d154576ee0f07d72
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	Sun Nov 5 18:40:18 2017 +0000
+
+    Update Friulian translation
+
+M	po/fur.po
+
+commit c6a710150814c872863b0e191736ecbf10cdcf03
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	Sat Nov 4 13:03:38 2017 +0100
+
+    Updated Slovenian translation
+
+M	po/sl.po
+
+commit 1f8e848cf7a6a307f9c58637411896ca36ab1517
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Fri Oct 27 17:56:43 2017 +0800
+
+    update boot timestamps when possible
+
+    Previously, boot timestamps in the boot selection menu is generated
+    when Logs is opened and won't be updated later. This causes a problem
+    that the timestamp of the latest log entry might be newer than what's
+    shown in the boot selection menu.
+
+    Fix that by updating the boot selection menu when users change the
+    category list or view logs from other boots.
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=762840
+
+M	src/gl-eventtoolbar.c
+M	src/gl-eventtoolbar.h
+M	src/gl-eventviewlist.c
+M	src/gl-eventviewlist.h
+M	src/gl-journal.c
+M	src/gl-window.c
+
+commit 36efaa4a933db52d9ede35e16e1e8767d00ba70b
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	Mon Oct 30 19:02:52 2017 +0100
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 448adecea4b4f9fd65997f3facf0666cc333c466
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:	Fri Oct 27 12:12:34 2017 +0000
+
+    Update German translation
+
+M	po/de.po
+
+commit 0eb84f4ea42726ef831531e82556c08c925aee4d
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Wed Oct 18 16:42:29 2017 +0800
+
+    update NEWS for 3.27.1 release
 
 M	NEWS
 M	configure.ac
 
-commit 339695b35963f60cbebe93396ddfacfcf2af416f
+commit b42accda4048f05d50b692d2f2cab34b614984ac
 Author: Pawan Chitrakar <chautari@gmail.com>
 Date:	Fri Oct 6 06:38:47 2017 +0000
 
     Update Nepali translation
 
+    (cherry picked from commit 339695b35963f60cbebe93396ddfacfcf2af416f)
+
 M	po/ne.po
 
-commit de9ed710aec6c4293e71eabd2b67006865bc3adb
+commit b70daac552b4a2fda0465d87ec2607c0c9a567e7
 Author: Xavi Ivars <xavi.ivars@gmail.com>
-Date:	Thu Oct 5 14:45:09 2017 +0200
+Date:	Thu Oct 5 14:44:56 2017 +0200
 
     [l10n] Updated Catalan (Valencian) translation
 
 M	po/ca@valencia.po
 
-commit 92cf74b7ea00095f05ef316cc953c0397b0ddeca
+commit 095f5b7c74b2fda43615de7229a9135e847f2270
 Author: Piotr Drąg <piotrdrag@gmail.com>
 Date:	Sat Sep 30 20:59:35 2017 +0200
 
@@ -62,7 +418,7 @@ Date:	Sat Sep 30 20:59:35 2017 +0200
 R100	help/fr/images/gnome-logs-3-12.png
 help/fr/media/gnome-logs-3-12.png
 
-commit e5be6b1e0192021a4b12b4edff09f3c3b7dd8e29
+commit 15a6a49b778d0a62370f6d634db52fa670999c41
 Author: Piotr Drąg <piotrdrag@gmail.com>
 Date:	Sat Sep 30 20:58:52 2017 +0200
 
@@ -70,7 +426,7 @@ Date:	Sat Sep 30 20:58:52 2017 +0200
 
 A	help/pl/media/gnome-logs-3-12.png
 
-commit 13086be0ad8cd42b1d3d5d23396358122e9918a2
+commit 44ee9c4ef438a842cd0e40987ed8cd209891b5a2
 Author: Arash Mousavi <mousavi.arash@gmail.com>
 Date:	Sat Sep 30 19:37:24 2017 +0330
 
@@ -78,7 +434,7 @@ Date:	Sat Sep 30 19:37:24 2017 +0330
 
 M	po/fa.po
 
-commit f93e36021961997d6b18d13ad6161dad33548045
+commit b62adbadf4363c27a04f1d52a274403e793a7425
 Author: Yuri Myasoedov <ymyasoedov@yandex.ru>
 Date:	Sat Sep 30 13:29:15 2017 +0400
 
@@ -86,15 +442,60 @@ Date:	Sat Sep 30 13:29:15 2017 +0400
 
 M	po/ru.po
 
-commit a45980236fbc06a5345d1d98037c63ff861033ed
+commit 69bd495399cc32285fd6c1fe36e246366a4234e0
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Thu Sep 28 13:35:01 2017 +0200
+
+    Mark missing strings for translation
+
+M	data/gl-searchpopover.ui
+
+commit 716f944165a4cc508545c0cb41da7cefedbf4dd8
 Author: Tom Tryfonidis <tomtryf@gnome.org>
 Date:	Tue Sep 26 08:54:55 2017 +0000
 
     Update Greek translation
 
+    (cherry picked from commit a45980236fbc06a5345d1d98037c63ff861033ed)
+
 M	po/el.po
 
-commit 9068aaadc4ca80470f0f54df40378e7e5b49dfef
+commit 1531f3f3b147e8b242bfae9ca5eccc153b690498
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Sep 25 13:54:58 2017 +0200
+
+    Update po/Makevars
+
+M	po/Makevars
+
+commit 5f62ee8b8395b90f403b856d0b8fe214ef9c5458
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Sep 25 13:54:00 2017 +0200
+
+    Add a translator comment to the .desktop file
+
+M	data/org.gnome.Logs.desktop.in
+
+commit ab2108662183805273e014b1ecf705be745f8d85
+Author: Niels De Graef <nielsdegraef@gmail.com>
+Date:	Sat Sep 2 02:05:51 2017 +0200
+
+    Migrate from intltool to gettext.
+
+    For more info, see [1].
+
+    [1] https://wiki.gnome.org/MigratingFromIntltoolToGettext
+
+    Signed-off-by: Niels De Graef <nielsdegraef@gmail.com>
+
+M	Makefile.am
+M	configure.ac
+M	data/org.gnome.Logs.appdata.xml.in
+M	data/org.gnome.Logs.desktop.in
+A	po/Makevars
+M	po/POTFILES.in
+
+commit 2c18217aa1c775f1d3c6e714ca230c09df8ac0da
 Author: Jeremy Bicha <jbicha@ubuntu.com>
 Date:	Tue Sep 12 11:42:30 2017 -0400
 
@@ -102,9 +503,9 @@ Date:	Tue Sep 12 11:42:30 2017 -0400
 
 M	po/es.po
 
-commit 21c125974b7e613314b33a7c49e009fb5223db53
+commit e7a43cc9dc35b3bfe7dc10fe50d833d47ad745e9
 Author: hanniedu <hannie@ubuntu-nl.org>
-Date:	Mon Sep 11 13:32:44 2017 +0200
+Date:	Mon Sep 11 13:29:57 2017 +0200
 
     Updated Dutch translation Master 3.26
 
