@@ -1,6 +1,89 @@
+commit 72b6206dec3a68514edc02167d8b1110c35551ee
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:   Mon May 7 14:59:58 2018 +0800
+
+    update NEWS for 3.28.2 release
+
+M	NEWS
+M	configure.ac
+M	meson.build
+
+commit c091f5650581ed34fd91f13f0aefdce95da17905
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Sun Apr 8 16:57:40 2018 +0800
+
+    free GMenuItem after inserting to menu
+
+    As documented here[0], GMenuItem should be freed once being inserted
+    to GMenu to avoid memory leak.
+
+    *[0]
+    https://developer.gnome.org/gio/stable/GMenu.html#g-menu-insert-item
+
+    (cherry picked from commit 280e1b95df18a8698969ef800ee246406cca8c53)
+
+M	src/gl-eventtoolbar.c
+
+commit dadd7d545a58e4812b454c70a52daf4c9fd3e0ab
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Mon Mar 19 15:35:56 2018 +0800
+
+    free GlQuery when journal model is disposing
+
+    GlJournalModel contains GlQuery in its private structure. And GlQuery
+    should be free using gl_query_free() to avoid memory leak.
+
+    (cherry picked from commit 93fcf1af6fe28a4501d273f562068dddedca575e)
+
+M	src/gl-journal-model.c
+
+commit 7bcb0a654377c401c34b161da84870b7686e869a
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Mon Mar 19 15:28:27 2018 +0800
+
+    decrease the reference count of GDateTime when needed
+
+    Call g_date_time_unref() on the return value of get_start_date_time()
+    and get_end_date_time() to decrese the reference count by one and
+    avoid memory leak.
+
+    (cherry picked from commit 5363d3297e9e0efde3da439410c8b48af8adc7d3)
+
+M	src/gl-searchpopover.c
+
+commit 4ee47bd34988d8174e71ca51564b5add5aa2be37
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Mon Mar 19 15:13:42 2018 +0800
+
+    free strings to avoid memory leak
+
+    Some strings are not freed when needed. Free them to avoid memory
+    leak.
+
+    (cherry picked from commit 363803d9bdf551d4b74c8bc15f375bdd83c44364)
+
+M	src/gl-searchpopover.c
+M	src/gl-window.c
+
+commit d5748e35ae0e2f5f090d907b29cf5344e4fd508d
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Mar 26 05:51:02 2018 +0200
+
+    Update Polish translation
+
+M	help/pl/media/gnome-logs-3-12.png
+
+commit ea3e78c89697deeb2b404166dccd62e6baf8f70d
+Author: Stas Solovey <whats_up@tut.by>
+Date:	Tue Mar 13 19:28:57 2018 +0000
+
+    Update Russian translation
+
+M	po/ru.po
+
 commit 2939d8f578d46d95edc3aacd0538f7f0ab860dd8
 Author: David King <davidk@gnome.org>
-Date:   Mon Mar 12 15:48:52 2018 +0000
+Date:	Mon Mar 12 15:48:52 2018 +0000
 
     Update NEWS for 3.28.0 release
 
