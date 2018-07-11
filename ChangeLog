@@ -1,6 +1,51 @@
+commit 1330a8bd43310a9a85db0deb262f71c643c5c5b4
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:   Wed Jul 11 22:02:33 2018 +0800
+
+    update NEWS for 3.28.5 release
+
+M	NEWS
+M	configure.ac
+M	meson.build
+
+commit b73b85be709ad7c89e5699ceb740234f5b7f5a78
+Author: Bjørn Lie <bjorn.lie@gmail.com>
+Date:	Fri Jun 15 09:13:27 2018 +0000
+
+    Fix obvious typo
+
+    Fix obvious typo gnoem-logs.1 to gnome-logs.1
+
+    (cherry picked from commit 02b782fcd64d4773e2dadbdb9ea74bf3923003b3)
+
+M	data/meson.build
+
+commit 438c13c2896c600192625fdef7735c566ce51fe0
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Wed Jul 11 17:35:26 2018 +0800
+
+    update NEWS for 3.28.4 release
+
+M	NEWS
+M	configure.ac
+M	meson.build
+
+commit 2f498464ac539fdf98199294bfb9205436b9c323
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Fri Jun 15 15:08:15 2018 +0800
+
+    meson: fix undefined function in meson_post_install.py
+
+    join_paths() is a function defined in meson. Use os.path.join()
+    instead.
+
+    (cherry picked from commit 59d2bf7b02607cc35c1b996080621fdeaeb29fcf)
+
+M	meson_post_install.py
+
 commit c4bc6b81591fa4e21ac6c83a60494d97dacd42c2
 Author: Jonathan Kang <jonathankang@gnome.org>
-Date:   Thu Jun 14 15:46:42 2018 +0800
+Date:	Thu Jun 14 15:46:42 2018 +0800
 
     update NEWS for 3.28.3 release
 
