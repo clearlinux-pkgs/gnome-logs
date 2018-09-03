@@ -1,23 +1,26 @@
-GNOME Logs 3.28.5
+GNOME Logs 3.30.0
 =================
 
-* fix typo in data/meson.build
+* install AppData XML to metainfo from Bjørn Lie
+* Update MSGID_BUGS_ADDRESS in po/Makevars from Piotr Drąg
+* updates to Belarusian and Korean translations
 
-GNOME Logs 3.28.4
+GNOME Logs 3.29.4
 =================
 
-* fix build error in meson build system
+* disable exporting logs when there are none from ankritisachan
+* update GTK+ requirement in README
+* various fixes in meson build system
+* fix typo in meson build system from Bjørn Lie
+* dropped dogtail test case
+* updates to Chinese (China), Greek and Romanian translations
 
-GNOME Logs 3.28.3
+GNOME Logs 3.29.1
 =================
 
-* distribute meson files in tarball
-* update to Chinese (China) translation
-
-GNOME Logs 3.28.2
-=================
-
+* only show similar timestamps once from ankritisachan
 * various memory leak fixes
+* exporting blank journal crash fix from H00ly666
 * updates to Russian and Polish translations
 
 GNOME Logs 3.28.0

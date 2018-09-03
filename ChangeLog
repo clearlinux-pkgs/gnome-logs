@@ -1,14 +1,118 @@
-commit 1330a8bd43310a9a85db0deb262f71c643c5c5b4
+commit af72655c2c71fb951815f40a21cc0a3ccea1d6e6
 Author: Jonathan Kang <jonathankang@gnome.org>
-Date:   Wed Jul 11 22:02:33 2018 +0800
+Date:   Mon Sep 3 20:36:12 2018 +0800
 
-    update NEWS for 3.28.5 release
+    update NEWS for 3.30.0 release
 
 M	NEWS
 M	configure.ac
 M	meson.build
 
-commit b73b85be709ad7c89e5699ceb740234f5b7f5a78
+commit 82c92888a4e0fc34e934a66aa86f70aa04a981d0
+Author: Junyoul Lim <purum@postech.ac.kr>
+Date:	Mon Aug 27 02:05:44 2018 +0000
+
+    Update Korean translation
+
+M	po/ko.po
+
+commit fbbac6137968c3aec7b93bb5473d6a7fe81faa2a
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Thu Aug 16 20:10:05 2018 +0200
+
+    Update MSGID_BUGS_ADDRESS in po/Makevars
+
+M	po/Makevars
+
+commit 700797e0883f493dd5c208ebeb4a63003ef43c8a
+Author: Yuras Shumovich <shumovichy@gmail.com>
+Date:	Sun Aug 12 14:58:24 2018 +0000
+
+    Add Belarusian translation
+
+M	po/LINGUAS
+A	po/be.po
+
+commit b0b9cd6811882302589702aacf500230a1a921d9
+Merge: 7293197 8bb84ad
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Fri Jul 20 12:36:57 2018 +0000
+
+    Merge branch 'meson-metainfo-folder' into 'master'
+
+    build: Use metainfo as install folder for meson
+
+    Use metainfo as installfolder for meson build like we do for
+    autotools build
+
+    See merge request GNOME/gnome-logs!3
+
+commit 7293197843692abcbcbf59f5b71e56039ee47b33
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Tue Jul 17 06:54:14 2018 +0800
+
+    update NEWS for 3.29.4 release
+
+M	NEWS
+M	configure.ac
+M	meson.build
+
+commit 8bb84add131ea768144d761f13713b14658b5589
+Author: Bjørn Lie <bjorn.lie@gmail.com>
+Date:	Fri Jul 13 20:03:14 2018 +0000
+
+    Use metainfo as installfolder for meson build like we do for
+    autotools build
+
+M	data/meson.build
+
+commit eb12387245f40f647da360b2ad42c8afcfe69a8a
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Wed Jul 11 22:43:47 2018 +0800
+
+    meson: Drop dogtail tests in meson build system
+
+    Dogtail tests have been droped in previous commit. Drop dogtail
+    detection in meson build system as well.
+
+M	meson.build
+M	tests/meson.build
+
+commit 27cbda1a1c1dc2eaae8f66f866ff516a7f831326
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Wed Jul 11 22:33:08 2018 +0800
+
+    Revert "Added dogtail test for sidebar item click"
+
+    Dogtail doesn't support wayland, so these dogtail test fails. And
+    we should remove them.
+
+    This reverts commit 81f44c881d5e40310c789790d3fe2f20756f11db.
+
+M	Makefile.am
+M	configure.ac
+D	tests/basic.py
+
+commit ca876a05781a2a619b7de2dcb7b46841e482ef3e
+Author: Daniel Șerbănescu <daniel@serbanescu.dk>
+Date:	Sun Jul 1 13:55:05 2018 +0000
+
+    Update Romanian translation
+
+M	po/ro.po
+
+commit 85e2b42f70c77aa28a7ff8b5ad3392f1a6b0c5ed
+Merge: 59d2bf7 02b782f
+Author: Jonathan Kang <jonathan121537@gmail.com>
+Date:	Tue Jun 19 08:28:43 2018 +0000
+
+    Merge branch 'Fix-typo-gnoem' into 'master'
+
+    Fix obvious typo
+
+    See merge request GNOME/gnome-logs!1
+
+commit 02b782fcd64d4773e2dadbdb9ea74bf3923003b3
 Author: Bjørn Lie <bjorn.lie@gmail.com>
 Date:	Fri Jun 15 09:13:27 2018 +0000
 
@@ -16,21 +120,9 @@ Date:	Fri Jun 15 09:13:27 2018 +0000
 
     Fix obvious typo gnoem-logs.1 to gnome-logs.1
 
-    (cherry picked from commit 02b782fcd64d4773e2dadbdb9ea74bf3923003b3)
-
 M	data/meson.build
 
-commit 438c13c2896c600192625fdef7735c566ce51fe0
-Author: Jonathan Kang <jonathankang@gnome.org>
-Date:	Wed Jul 11 17:35:26 2018 +0800
-
-    update NEWS for 3.28.4 release
-
-M	NEWS
-M	configure.ac
-M	meson.build
-
-commit 2f498464ac539fdf98199294bfb9205436b9c323
+commit 59d2bf7b02607cc35c1b996080621fdeaeb29fcf
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Fri Jun 15 15:08:15 2018 +0800
 
@@ -39,31 +131,33 @@ Date:	Fri Jun 15 15:08:15 2018 +0800
     join_paths() is a function defined in meson. Use os.path.join()
     instead.
 
-    (cherry picked from commit 59d2bf7b02607cc35c1b996080621fdeaeb29fcf)
-
 M	meson_post_install.py
 
-commit c4bc6b81591fa4e21ac6c83a60494d97dacd42c2
-Author: Jonathan Kang <jonathankang@gnome.org>
-Date:	Thu Jun 14 15:46:42 2018 +0800
-
-    update NEWS for 3.28.3 release
-
-M	NEWS
-M	configure.ac
-M	meson.build
-
-commit a80ddd44ae0b99b1a6d8d0f93c1a3f961271e4c9
+commit 439d89072b1e884d343ae4348fbe5db0ad850a08
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Thu Jun 14 15:20:54 2018 +0800
 
     Distribute meson files in tarball
 
-    (cherry picked from commit 439d89072b1e884d343ae4348fbe5db0ad850a08)
-
 M	Makefile.am
 
-commit 68c9c16fff4b95f3e5439c2dc880531bd9c44aa6
+commit a2804bd9de70293ff887c6c5f916edfd6ee7254e
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Wed May 23 10:02:00 2018 +0800
+
+    update GTK+ requirement in README
+
+M	README
+
+commit 2fb0a84c5bcdd0a73ab66c8f6d731c7dbd7708ed
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Tue May 22 20:51:37 2018 +0200
+
+    Fix desktop icon in the Greek translation
+
+M	po/el.po
+
+commit c4d9a2aec854e430bf3a7e942c64aa4d3b7f00e0
 Author: Dz Chen <wsxy162@gmail.com>
 Date:	Mon May 21 16:11:26 2018 +0000
 
@@ -71,17 +165,34 @@ Date:	Mon May 21 16:11:26 2018 +0000
 
 M	po/zh_CN.po
 
-commit 72b6206dec3a68514edc02167d8b1110c35551ee
-Author: Jonathan Kang <jonathankang@gnome.org>
-Date:	Mon May 7 14:59:58 2018 +0800
+commit 93bb0931b29942310df7edfb83ccd18d1a9b8a4b
+Author: ankritisachan <ankritisachan@gmail.com>
+Date:	Fri Apr 20 09:15:31 2018 +0530
 
-    update NEWS for 3.28.2 release
+    Disable 'export' action when the logs are empty
+
+    To prevent creation of empty file on export, it is better to disable
+    'export' action when there are no logs to display.
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=795349
+
+M	src/gl-eventviewlist.c
+M	src/gl-eventviewlist.h
+M	src/gl-journal-model.c
+M	src/gl-window.c
+M	src/gl-window.h
+
+commit 98f6404c747269166cf0fc670a00d5c5d80f829e
+Author: Jonathan Kang <jonathankang@gnome.org>
+Date:	Tue Apr 17 10:55:26 2018 +0800
+
+    update NEWS for 3.29.1 release
 
 M	NEWS
 M	configure.ac
 M	meson.build
 
-commit c091f5650581ed34fd91f13f0aefdce95da17905
+commit 280e1b95df18a8698969ef800ee246406cca8c53
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Sun Apr 8 16:57:40 2018 +0800
 
@@ -93,11 +204,31 @@ Date:	Sun Apr 8 16:57:40 2018 +0800
     *[0]
     https://developer.gnome.org/gio/stable/GMenu.html#g-menu-insert-item
 
-    (cherry picked from commit 280e1b95df18a8698969ef800ee246406cca8c53)
-
 M	src/gl-eventtoolbar.c
 
-commit dadd7d545a58e4812b454c70a52daf4c9fd3e0ab
+commit 8a639f3074100378d5cc344bf124a5fac2632240
+Author: H00ly666 <hecai4237@gmail.com>
+Date:	Tue Mar 27 22:42:37 2018 +0800
+
+    Fix crash while exporting blank journal
+
+    gnome-logs crashes when exporting a blank journal.
+
+    This patch add a check against NULL pointers.
+
+    Closes #794724.
+
+M	src/gl-window.c
+
+commit b98d4bcd2101df0a45e8774e34ee4014f1f0fe42
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Mar 26 05:51:02 2018 +0200
+
+    Update Polish translation
+
+M	help/pl/media/gnome-logs-3-12.png
+
+commit 93fcf1af6fe28a4501d273f562068dddedca575e
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Mon Mar 19 15:35:56 2018 +0800
 
@@ -106,11 +237,9 @@ Date:	Mon Mar 19 15:35:56 2018 +0800
     GlJournalModel contains GlQuery in its private structure. And GlQuery
     should be free using gl_query_free() to avoid memory leak.
 
-    (cherry picked from commit 93fcf1af6fe28a4501d273f562068dddedca575e)
-
 M	src/gl-journal-model.c
 
-commit 7bcb0a654377c401c34b161da84870b7686e869a
+commit 5363d3297e9e0efde3da439410c8b48af8adc7d3
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Mon Mar 19 15:28:27 2018 +0800
 
@@ -120,11 +249,9 @@ Date:	Mon Mar 19 15:28:27 2018 +0800
     and get_end_date_time() to decrese the reference count by one and
     avoid memory leak.
 
-    (cherry picked from commit 5363d3297e9e0efde3da439410c8b48af8adc7d3)
-
 M	src/gl-searchpopover.c
 
-commit 4ee47bd34988d8174e71ca51564b5add5aa2be37
+commit 363803d9bdf551d4b74c8bc15f375bdd83c44364
 Author: Jonathan Kang <jonathankang@gnome.org>
 Date:	Mon Mar 19 15:13:42 2018 +0800
 
@@ -133,24 +260,33 @@ Date:	Mon Mar 19 15:13:42 2018 +0800
     Some strings are not freed when needed. Free them to avoid memory
     leak.
 
-    (cherry picked from commit 363803d9bdf551d4b74c8bc15f375bdd83c44364)
-
 M	src/gl-searchpopover.c
 M	src/gl-window.c
 
-commit d5748e35ae0e2f5f090d907b29cf5344e4fd508d
-Author: Piotr Drąg <piotrdrag@gmail.com>
-Date:	Mon Mar 26 05:51:02 2018 +0200
+commit 1f529a54536d78d50abb9671bb182429a4179a4a
+Author: ankritisachan <ankritisachan@gmail.com>
+Date:	Thu Mar 15 14:51:55 2018 +0530
 
-    Update Polish translation
+    Show similar timestamps once only
 
-M	help/pl/media/gnome-logs-3-12.png
+    This patch shows time labels only for those entries whose time
+    label is
+    different from their previous one.
 
-commit ea3e78c89697deeb2b404166dccd62e6baf8f70d
+    https://bugzilla.gnome.org/show_bug.cgi?id=752680
+
+M	src/gl-eventviewrow.c
+M	src/gl-journal-model.c
+M	src/gl-journal.c
+M	src/gl-journal.h
+
+commit 9f2d216eaaf5543f89cef8974665033bfb9e543c
 Author: Stas Solovey <whats_up@tut.by>
 Date:	Tue Mar 13 19:28:57 2018 +0000
 
     Update Russian translation
+
+    (cherry picked from commit ea3e78c89697deeb2b404166dccd62e6baf8f70d)
 
 M	po/ru.po
 
