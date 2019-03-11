@@ -1,3 +1,33 @@
+GNOME Logs 3.32.0
+=================
+
+* avoid segfault when updating latest timestamp
+* updates to Finnish, Hungarian, Galician, Romanian, Indonesian, Polish, Czech,
+  Kazakh, Chinese (Taiwan), French, Dutch, Lithuanian, Brazilian Portuguese,
+  Italian, Russian, Serbian, German, Latvian, Korean and Catalan translations
+
+GNOME Logs 3.31.4
+=================
+
+* updated DOAP file from Andre Klapper
+* code clean up
+* replacing *_get_type() with g_type_ensure()
+* fix app icon not showing in about dialog
+* updates to Greek, Friulian, Swedish and Turkish translations
+
+GNOME Logs 3.31.3
+=================
+
+* improved app icon from Jakub Steiner
+* updates to Esperanto, Slovenian, Spanish and French translations
+
+GNOME Logs 3.31.2
+=================
+
+* updated app icon from Jakub Steiner
+* retire app menu
+* updates to Swedish, Czech, Slovenian and Malayalam translations
+
 GNOME Logs 3.30.0
 =================
 
