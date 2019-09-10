@@ -1,7 +1,25 @@
-GNOME Logs 3.32.1
+GNOME Logs 3.34.0
 =================
 
-* updates to Croatian and Danish translations
+* Avoid segfault when updating the boot menu
+* Fix application name in about dialog
+* Fixed unfunctional translations in meson
+* updates to Basque, Friulian, Persian and Catalan translations
+
+GNOME Logs 3.33.2
+=================
+
+* removing tests option in meson build system
+* update to Chinese (China) translation
+
+GNOME Logs 3.33.1
+=================
+
+* Fixed abnormal headerbar height
+* Dropped autotools support from Jeremy Bicha
+* Fixed manpage check and version number in meson
+* Adding flatpak manifest and gitlab ci from Florian Müllner
+* Updates to Croatian and Danish translations
 
 GNOME Logs 3.32.0
 =================
