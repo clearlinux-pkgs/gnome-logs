@@ -4,10 +4,10 @@
 #
 Name     : gnome-logs
 Version  : 3.34.0
-Release  : 14
+Release  : 15
 URL      : https://download.gnome.org/sources/gnome-logs/3.34/gnome-logs-3.34.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-logs/3.34/gnome-logs-3.34.0.tar.xz
-Summary  : A log viewer for the systemd journal
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: gnome-logs-bin = %{version}-%{release}
@@ -72,28 +72,35 @@ locales components for the gnome-logs package.
 
 %prep
 %setup -q -n gnome-logs-3.34.0
+cd %{_builddir}/gnome-logs-3.34.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1568081297
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1586230499
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
 
+%check
+export LANG=C.UTF-8
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost,127.0.0.1,0.0.0.0
+meson test -C builddir
+
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/gnome-logs
-cp COPYING %{buildroot}/usr/share/package-licenses/gnome-logs/COPYING
+cp %{_builddir}/gnome-logs-3.34.0/COPYING %{buildroot}/usr/share/package-licenses/gnome-logs/8624bcdae55baeef00cd11d5dfcfa60f68710a02
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang gnome-logs
 
@@ -210,7 +217,7 @@ DESTDIR=%{buildroot} ninja -C builddir install
 
 %files license
 %defattr(0644,root,root,0755)
-/usr/share/package-licenses/gnome-logs/COPYING
+/usr/share/package-licenses/gnome-logs/8624bcdae55baeef00cd11d5dfcfa60f68710a02
 
 %files locales -f gnome-logs.lang
 %defattr(-,root,root,-)
