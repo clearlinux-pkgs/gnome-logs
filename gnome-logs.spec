@@ -7,7 +7,7 @@
 #
 Name     : gnome-logs
 Version  : 45.0
-Release  : 24
+Release  : 25
 URL      : https://download.gnome.org/sources/gnome-logs/45/gnome-logs-45.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-logs/45/gnome-logs-45.0.tar.xz
 Summary  : No detailed summary available
